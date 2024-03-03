@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.conatiner{
+    height: 90vh;
+    width: 100vw;
+    
+
+}
+
+#video{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    position: relative;
+}
+.card{
+    height: 350px;
+    width: 270px;
+    padding: 10px;
+    position: absolute;
+    top:20%;
+
+    right:40%;
+ 
+    background-color: rgba(32, 32, 32, 0.89);
+}
+.logo img{
+    height: 50px;
+    margin-top: 10px;
+
+}
+.cont{
+    margin-top: 20px;
+}
+label{
+    color: white;
+}
+.name{
+    position: relative;
+}
+.name i{
+    position:absolute;
+    color:aliceblue;
+    right: 5px;
+}
+.password{
+    position: relative;
+}
+.password span{
+position: absolute;
+color:#01c4ff;
+font-size: 12px;
+right: 5px;
+cursor: pointer;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color:white;
+}
+input[type=submit]{
+   
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(94, 0, 194);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.another{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.another p{
+    font-size: 12px;
+    color: white;
+}
+ 
+.another p a{
+    color: rgb(26, 254, 10);
+    font-size: 12px;
+}#forget{
+    color:rgb(0, 217, 255);
+}
+
+.error{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    padding: 5px 0px;
+}

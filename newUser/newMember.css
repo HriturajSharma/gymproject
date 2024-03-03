@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+:root {
+  --primary-color: #111317;
+  --primary-color-light: #1f2125;
+  --extra-color-light: #232323;
+  --primary-color-extra-light: #a87cff;
+  --secondary-color: #8c53ff;
+  --secondary-color-dark: #7734fc;
+  --text-light: #d1d5db;
+  --white: #ffffff;
+  --min-width: 1200px;
+  --max-width: 100%;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.heading img{
+  height: 40px;
+}
+.formData {
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 5px 0px ;
+  background-color:rgb(52, 52, 52);
+  box-shadow: 10px 10px 10px rgb(56, 56, 56);
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+input[type=submit] {
+  width: 100%;
+margin-top: 20%;
+  bottom: 20px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #8c53ff;
+  border: 1px solid var(--secondary-color-dark);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: rgb(47, 149, 47);
+}
+.part {
+  padding: 30px 0px;
+}
+.name {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.name input {
+
+  width: 49%;
+}
+.male {
+  position: relative;
+}
+.male i {
+  position: absolute;
+  font-size: 12px;
+  color: rgb(108, 108, 108);
+  top: 12px;
+  right: 10px;
+}
+.contact {
+  position: relative;
+}
+.contact i {
+  position: absolute;
+  font-size: 12px;
+  color: rgb(108, 108, 108);
+  right: 0px;
+  bottom: 10px;
+}
+#dob{
+  color: gray;
+  width: 100%;
+}
+input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-bottom: 1px solid gray;
+  position: relative;
+  background-color: transparent;
+}
+.contact-cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name-error{
+  color: red;
+  font-size: 10px;
+  position: absolute;
+  top: 155px;
+  left: 20px;
+}
+.e-error{
+  color: red;
+  font-size: 10px;
+  position: absolute;
+  top: 220px;
+  left: 20px;
+}
+.n-error{
+  color: red;
+  font-size: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+input[type=email],
+[type=number] {
+  width: 100%;
+  
+}
+#profile{
+  width: 100%;
+  border: none;
+}
+@media (width < 600px) {
+ .formData {
+    width: 260px;
+    height: 530px;
+  }
+  #dob{
+   color: rgb(132, 132, 132);
+   padding: 20px 0px ;
+   width: 100%;
+
+  }
+ #number{
+  width: 100%;
+ }
+
+  .contact-cont{
+    display: block;
+    margin-top: 10px;
+  }
+}
